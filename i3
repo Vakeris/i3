@@ -214,5 +214,8 @@ exec_always picom -f
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+for_window [class="^.*"] border pixel 1
+new_window 1pixel
+
 
 
